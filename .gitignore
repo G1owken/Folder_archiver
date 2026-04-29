@@ -1,0 +1,21 @@
+# Python системные файлы (кэш)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Папки с результатами работы твоей программы
+Encoder/archives/
+Encoder/passwords/
+
+# Если вдруг создаешь виртуальное окружение
+venv/
+.venv/
+env/
+
+# Системные файлы Windows
+Thumbs.db
+desktop.ini
+
+# Логи ошибок
+*.log
