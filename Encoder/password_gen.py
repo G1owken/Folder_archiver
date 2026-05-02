@@ -1,8 +1,6 @@
 import secrets
 import string
-def generate_random_password(length=12):
-    if length < 10:
-        raise ValueError("Password length should be at least 10 characters.")
+def generate_random_password(length=24):
     categories = [
         string.ascii_uppercase,
         string.ascii_lowercase,  
