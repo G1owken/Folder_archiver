@@ -9,7 +9,7 @@ def main():
     root.withdraw()
     root.attributes('-topmost', True)
 
-    choice = messagebox.askyesnocancel("Brute_forcer", "ДА — Зашифровать папку\nНЕТ — Расшифровать архив")
+    choice = messagebox.askyesnocancel("Brute_forcer", "Yes — Зашифровать папку\nNo — Расшифровать архив")
 
     if choice is True: 
         path = filedialog.askdirectory(title="Выберите папку для защиты")
